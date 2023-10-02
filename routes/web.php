@@ -20,5 +20,5 @@ Route::get('hello', function(){
     return '<p> hi </p>';
 });
 Route::get('aoife', function(){
-    return view('welcome2');
+    return view('hello');
 });
